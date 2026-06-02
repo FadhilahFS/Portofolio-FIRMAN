@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Template Portofolio",
+    "description": "Situs portofolio statis dengan desain modern dan fokus pada tampilan project.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "repo": "",
+    "live": "",
+    "image": "",
+    "date": "2026"
+  },
+  {
+    "name": "Aplikasi Todo",
+    "description": "Aplikasi todo sederhana dengan penyimpanan lokal dan antarmuka responsif.",
+    "tech": ["React", "Vite"],
+    "repo": "",
+    "live": "",
+    "image": "",
+    "date": "2025"
+  }
+]

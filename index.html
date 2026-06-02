@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Firman — Frontend Developer</title>
+  <meta name="description" content="Portofolio Firman — ringkasan project, keterampilan, dan kontak." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <a class="logo" href="#">Firman</a>
+      <nav class="nav">
+        <a href="#work">Project</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <div class="avatar">
+            <img src="assets/avatar-placeholder.png" alt="Foto profil" />
+          </div>
+          <h1>Halo, saya Firman</h1>
+          <p class="role">Frontend Developer • UI/UX enthusiast</p>
+          <p class="summary">Saya sedang menempuh pendidikan di bidang Teknik Informatika dan fokus mengembangkan antarmuka web yang cepat, ramah pengguna, dan estetis. Saya menikmati merancang pengalaman pengguna di Figma lalu menerapkannya menggunakan HTML, CSS, dan JavaScript.</p>
+          <div class="cta">
+            <a class="btn" href="#work">Lihat project</a>
+            <a class="btn ghost" href="#contact">Hubungi</a>
+          </div>
+          <ul class="contact-list">
+            <li>Email: <span id="email">epicgembul@gmail.com</span></li>
+            <li>Telepon: <span id="phone">+6285701050751</span></li>
+            <li>Lokasi: Kabupaten Sleman, DI Yogyakarta</li>
+            <li>GitHub: <a href="https://github.com/FadhilahFS" id="github-link">github.com/FadhilahFS</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-right card about-card" id="about">
+          <h2>Tentang Saya</h2>
+          <p>Saya mahasiswa S1 Teknik Informatika di Universitas Ahmad Dahlan. Saya tertarik pada Frontend dan desain UI/UX. Dalam proyek kampus dan freelance, saya sering bertanggung jawab pada bagian antarmuka dan pengalaman pengguna. Saya terbiasa berkolaborasi dalam tim dan menggunakan alat desain seperti Figma untuk membuat prototipe sebelum implementasi.</p>
+
+          <h3>Pendidikan</h3>
+          <p class="muted">S1 Teknik Informatika — Universitas Ahmad Dahlan (Sep 2023 – Sekarang)</p>
+
+          <h3>Pengalaman singkat</h3>
+          <ul>
+            <li><strong>Operator Data Entry</strong> — pekerjaan lepas (Feb 2024 – Apr 2025). Menangani input data, pengelolaan spreadsheet, dan validasi data.</li>
+            <li><strong>Magang di Radio</strong> — (Mar 2022 – Sep 2022). Mengelola musik dan iklan serta membantu operasional siaran.</li>
+          </ul>
+
+          <h3>Keterampilan</h3>
+          <div class="skills">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span><span>Figma</span><span>MS Excel</span><span>PHP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="wrap section">
+      <h2>Project Terpilih</h2>
+      <p class="muted">Contoh project yang menampilkan kemampuan frontend dan desain. Tambahkan atau edit di file projects.json.</p>
+      <div id="projects" class="grid">
+      </div>
+    </section>
+
+    <section id="contact" class="wrap section contact-section">
+      <h2>Kontak</h2>
+      <p>Jika tertarik bekerja sama atau ingin berdiskusi, hubungi saya melalui email atau GitHub.</p>
+      <div class="contact-actions">
+        <button id="copyEmail">Salin email</button>
+        <a class="btn" id="openGithub" href="https://github.com/FadhilahFS">Lihat GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <small>&copy; <span id="year"></span> Firman. Dibuat dengan perhatian pada desain dan performa.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
